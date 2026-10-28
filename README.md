@@ -23,18 +23,15 @@ I build business interfaces, API services and data-processing workflows. My curr
 **Backend & data:** Python, FastAPI, SQLite, REST APIs, SQL  
 **Engineering:** automated tests, validation, Git, GitHub, CSV processing
 
-## How I approach a project
+## Implementation notes
 
-- Keep interfaces clear, responsive and easy to navigate.
-- Validate inputs and make failure states explicit.
-- Use integer cents or Decimal for currency calculations.
-- Include reproducible setup instructions and tests alongside the source.
+Ledger stores invoice amounts in integer cents and calculates totals from the filtered rows. Stockroom records stock adjustments in a transaction. Flow validates currency with Decimal and caches reports by file hash.
 
 The three projects passed **26 local automated tests** (6 dashboard, 10 API and 10 automation), and the dashboard production build passed. These are independent portfolio projects using sample data. The dashboard runs in the browser; the API is supplied as runnable Python source; Flow's browser preview illustrates the offline Python workflow.
 
 ## Background & contact
 
-Started learning to code in **2019**. FSc completed in **2020**.  
+Started learning to code in **2019**. **Higher Secondary Education (FSc), 2020 — Grade 12 / pre-university level.**  
 **Languages:** English (professional), Urdu (native), German (basic).
 
 For web interfaces, Python backends and automation enquiries: **[umerdesigns@hotmail.com](mailto:umerdesigns@hotmail.com)**.
